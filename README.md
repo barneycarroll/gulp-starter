@@ -5,11 +5,14 @@ Fork of the [@greypants' Gulp + Browserify starter kit](https://github.com/greyp
 
 - No more jQuery
 - ES6ify instead of CoffeeScript
+    - ES5-shim for older browsers
 - Mithril instead of Backbone
 - msx instead of hbsify
 - Browserify is configured and executed by the Gulp build process, rather than partially configured in package.json and executed by Gulp 
 
 What follows is the original README with bits I've hacked written out:
+
+---
 
 Includes the following tools, tasks, and workflows:
 
